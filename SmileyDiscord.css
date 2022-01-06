@@ -2181,6 +2181,7 @@ display:none !important
 .cozy-3raOZG .messageContent-2qWWxC 
 {
  color: var(--normal-text-color);
+ padding-top: 1px;
 }
 
 #app-mount .newMessagesBar-265mhP 
@@ -2450,9 +2451,9 @@ button.emojiItem-14v6tW.emojiItemMedium-_WAwGB.emojiItemSelected-1aLkfV
     margin-top: 8px;
 }
 
-.markup-2BOw-j {
+.markup-2BOw-j 
+{
     font-size: 16px;
-    padding-top: 1px;
 }
 
 .compact-T3H92H.wrapper-2a6GCs, .cozy-3raOZG.wrapper-2a6GCs {
