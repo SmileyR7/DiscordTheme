@@ -10,6 +10,9 @@
 --channel-and-sidebar-names-color: #be77fc;
 --channel-and-sidebar-seperator-color: #8140c7;
 --channel-muted-color: #77379e;
+--message-reply-color: #e1aaff;
+--message-reply-hover-color: #ebcaff;
+--text-link-color: #ce96ea;
 --spine-color: #be77fc;
 --backgroundColor01: #130621;
 --backgroundColor02: #130621;
@@ -2248,6 +2251,18 @@ div.markup-2BOw-j.slateTextArea-1Mkdgw.fontSize16Padding-3Wk7zP
     box-shadow: 0 0 25px rgb(97 1 202 / 28%) inset;
 }
 
+.scrollableContainer-2NUZem.webkit-HjD9Er::-webkit-scrollbar-track 
+{
+    background-color: rgba(24,25,28,0) !important;
+    box-shadow: 0 0 25px rgb(97 1 202 / 0%) inset !important;
+}
+
+.scrollableContainer-2NUZem.webkit-HjD9Er::-webkit-scrollbar-thumb 
+{
+    background-color: rgba(24,25,28,0) !important;
+    box-shadow: 0 0 25px rgb(97 1 202 / 0%) inset !important;
+}
+
 .slateTextArea-1Mkdgw 
 {
     caret-color: #e4b0ff;
@@ -2383,6 +2398,70 @@ div.markup-2BOw-j.slateTextArea-1Mkdgw.fontSize16Padding-3Wk7zP
 .modeMuted-onO3r-:hover .name-23GUGE, .wrapper-2jXpOf:hover .name-23GUGE 
 {
     color: var(--channel-text-active-color);
+}
+
+.wrapper-PY0fhH.muted-2JBAyG:hover .icon-2yIBmh, .wrapper-PY0fhH.muted-2JBAyG:hover .name-3l27Hl, .wrapper-PY0fhH:hover .icon-2yIBmh, .wrapper-PY0fhH:hover .name-3l27Hl {
+    color: var(--channel-text-active-color);
+}
+
+.repliedMessage-VokQwo 
+{
+    color: var(--message-reply-color);
+}
+
+.repliedTextPreview-2NBljf.clickable-1bVtEA:hover 
+{
+    color: var(--message-reply-hover-color);
+}
+
+#app-mount .replyBar-1YLQ2F, #app-mount .threadSuggestionBar-2ufK2Z, #app-mount .inner-2P4tQO, #app-mount .searchBar-6Kv8R2 .searchBarComponent-32dTOx, #app-mount .expandedFolderBackground-1cujaW:not(.collapsed-2ZrjoL), #app-mount .channelTextArea-rNsIhG, #app-mount .circleIconButton-1QV--U, #app-mount .scrollableContainer-2NUZem, #app-mount .searchBar-3dMhjb {
+    box-shadow: 0 0 25px rgba(74, 0, 154, 0.59) inset;
+}
+
+#app-mount .categoryItemDefaultCategorySelected-_HCKoz, #app-mount .categoryItemDefaultCategorySelected-_HCKoz:hover {
+    background-color: #fff0 !important;
+    box-shadow: 0 0 25px rgba(74, 0, 154, 0.59) inset;
+}
+
+button.emojiItem-14v6tW.emojiItemMedium-_WAwGB.emojiItemSelected-1aLkfV 
+{
+    box-shadow: 0 0 25px rgba(74, 0, 154, 0.59) inset;
+}
+
+.executedCommand-2GE3w2 .applicationName-1-Uq7y, .executedCommand-2GE3w2 .commandName-1klrjB, .executedCommand-2GE3w2 .username-1A8OIy, .repliedMessage-VokQwo .username-1A8OIy, .threadMessageAccessory-1pYyA- .username-1A8OIy {
+    opacity: .90;
+    font-size: 15px;
+}
+
+.theme-dark .header-B-DcDj {
+    color: #e4b0ff;
+}
+
+.ratingBody-2p2rH4 {
+    margin-top: 8px;
+    color: #e4b0ff;
+}
+
+.colorStandard-2KCXvj {
+    color: #e4b0ff;
+}
+
+.group-spacing-16 .groupStart-23k01U {
+    margin-top: 8px;
+}
+
+.markup-2BOw-j {
+    font-size: 16px;
+    padding-top: 1px;
+}
+
+.compact-T3H92H.wrapper-2a6GCs, .cozy-3raOZG.wrapper-2a6GCs {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#app-mount .anchor-3Z-8Bb, #app-mount .executedCommand-2GE3w2 .commandName-1klrjB, #app-mount .markup-2BOw-j a {
+    color: var(--text-link-color) !important;
 }
 
 .theme-dark 
