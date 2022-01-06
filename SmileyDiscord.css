@@ -2464,6 +2464,20 @@ button.emojiItem-14v6tW.emojiItemMedium-_WAwGB.emojiItemSelected-1aLkfV
     color: var(--text-link-color) !important;
 }
 
+#app-mount .botTagRegular-2HEhHi, #app-mount .wanderingCubesItem-WPXqao {
+    box-shadow: 0 0 25px rgba(104, 22, 193, 0.46) inset;
+    background: #13062100 !important;
+    background-color: #13062100 !important;
+    color: #ff2fe6;
+}
+
+#app-mount .activity-2INFPu::before {
+    box-shadow: 0 0 25px rgba(104, 22, 193, 0.46) inset;
+    background: #13062100 !important;
+    background-color: #13062100 !important;
+    background-image: none;
+}
+
 .theme-dark 
 {
     --text-muted: #e4b0ff;
