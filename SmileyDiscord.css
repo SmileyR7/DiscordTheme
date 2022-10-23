@@ -253,7 +253,7 @@
 #app-mount .botTagRegular-kpctgU,
 #app-mount .wanderingCubesItem-3Us-UG
 {
-    background-color:var(--mainColor) !important
+    background-color:var(--mainColor) !important;
 }
 #app-mount .childContainer-U_a6Yh
 {
@@ -266,7 +266,7 @@
 }
 #app-mount .wordmarkWindows-2dq6rw
 {
-    color:var(--mainColor) !important
+    color:var(--mainColor) !important;
 }
 #app-mount .wordmarkWindows-2dq6rw::after
 {
@@ -279,37 +279,38 @@ margin-left:-10px;
 color:var(--mainColor);
 background-position:center;
 background-size:contain;
-background-repeat:no-repeat
+background-repeat:no-repeat;
 }
 #app-mount .container-2o3qEW
 {
-    background:transparent !important;flex-direction:unset
+    background:transparent !important;flex-direction:unset;
 }
 #app-mount .members-3WRCEx,
 #app-mount .members-3WRCEx>div
 {
-    background-color:var(--backgroundColor02) !important
+    background-color:var(--backgroundColor02) !important;
 }
 #app-mount .clickable-28SzVr.container-1oeRFJ .activity-2EQDZv
 {
-    color:rgba(255,255,255,.5) !important
+    color:rgba(255,255,255,.5) !important;
 }
 #app-mount .clickable-28SzVr.container-1oeRFJ:hover .activity-2EQDZv
 {
-    color:rgba(255,255,255,.9) !important
+    color:rgba(255,255,255,.9) !important;
 }
 #app-mount .selected-1-Z6gm .layout-1qmrhw,
 #app-mount .clickable-28SzVr.container-1oeRFJ:hover .layout-1qmrhw
 {
-    background-color:var(--backgroundColor01) !important
+    background-color:var(--backgroundColor01) !important;
 }
 #app-mount .selected-1-Z6gm .activity-2EQDZv
 {
-    color:rgba(255,255,255,.9) !important
+    color:rgba(255,255,255,.9) !important;
 }
-#app-mount .layout-1qmrhw
+.layout-1qmrhw
 {
-    position:relative;overflow:hidden
+    position:relative;overflow:hidden;
+    background-color:var(--backgroundColor01) !important;
 }
 /*
 #app-mount .layout-1qmrhw::after
@@ -2431,6 +2432,10 @@ div.markup-eYLPri.slateTextArea-27tjG0.fontSize16Padding-XoMpjI
     box-shadow: 0 0 25px rgba(74, 0, 154, 0.59) inset;
 }
 
+.member-2gU6Ar.member-48YF_l.container-1oeRFJ.clickable-28SzVr {
+    background-color: #0000;
+}
+
 button.emojiItem-277VFM.emojiItemMedium-2stgkv.emojiItemSelected-2Lg50V 
 {
     box-shadow: 0 0 25px rgba(74, 0, 154, 0.59) inset;
@@ -2612,4 +2617,28 @@ button.emojiItem-277VFM.emojiItemMedium-2stgkv.emojiItemSelected-2Lg50V
 {
     --text-muted: #e4b0ff;
     --header-primary: #ffffff;
+}
+
+.clickable-28SzVr.container-1oeRFJ:active, .highlighted-3PcOfB.container-1oeRFJ, .selected-1-Z6gm.container-1oeRFJ {
+    background: #e064ffa6;
+}
+
+.userPopoutInner-1hXSeY.userProfileInner-3F03PX {
+    background: #42186f;
+}
+
+.userPopoutOverlayBackground-dKOOda.overlayBackground-1KgwVi {
+    background: #130621;
+}
+
+#app-mount .role-2TIOKu {
+    border-color: #e064ffa6;
+}
+
+.userProfileModalInner-3fh3QA {
+    background: #42186f;
+}
+
+.body-_QAKrE {
+    background: #130621;
 }
